@@ -310,34 +310,5 @@ elif choice == "📥 Retrieve Data":
                 else:
                     st.error("😕 That didn’t work. Make sure the text and passphrase are correct.")
 
-# --- Footer with Icons ---
-st.markdown("---", unsafe_allow_html=True)
-st.markdown("""
-<!-- Load Font Awesome -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-<style>
-.footer-icons a {
-    margin: 0 12px;
-    color:#48adfa; 
-    transition: color 0.3s ease;
-    text-decoration: none;
-}
-.footer-icons a:hover {
-    color: #1e90ff; /* Bright blue on hover */
-}
-</style>
-
-<div style='text-align: center; font-size: 0.9rem; padding-top: 20px;'>
-    <div class="footer-icons">
-        <a href="https://github.com/MuhammadHamzaKhan786" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/muhammad-hamza-khan-6234772bb/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://personal-portfolio-hamza.vercel.app/" target="_blank"><i class="fas fa-globe fa-2x"></i></a>
-    </div>
-    <br>© 2025 Hamza Khan | Built with ❤️ using Streamlit
-</div>
-""", unsafe_allow_html=True)
-
-
 
 
